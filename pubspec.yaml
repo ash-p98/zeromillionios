@@ -1,0 +1,38 @@
+name: zerotomillion
+description: 1 million challenge
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  shared_preferences: ^0.5.12+4
+  liquid_progress_indicator: ^0.3.2
+  spring_button: ^1.0.14
+  gradient_text: ^1.0.2
+  firebase_admob: ^0.11.0+1
+  flutter_native_admob: ^2.1.0+3
+  firebase_core: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OClock
+      fonts:
+        - asset: fonts/oclock.ttf
